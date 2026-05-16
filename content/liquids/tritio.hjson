@@ -1,0 +1,12 @@
+type: liquid
+name: Trítio Líquido
+description: "Isótopo de hidrogênio liquefeito. Sua condutividade térmica extrema garante um multiplicador de até 4.95x de velocidade em brocas e torretas avançadas."
+
+// Valor calibrado para atingir o multiplicador de 4.95x na física da V8
+heatCapacity: 2.5
+viscosity: 0.15
+explosiveness: 0.6
+color: "42a5ff"
+
+// Vincula a pesquisa direto no reator original do jogo
+research: nuclear-reactor
