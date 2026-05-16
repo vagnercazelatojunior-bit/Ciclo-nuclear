@@ -1,0 +1,42 @@
+type: MultiCrafter
+size: 3
+health: 1600
+category: power
+
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+outputsPower: true
+consumesPower: false
+
+recipes: [
+  // COMBUSTÍVEL 1: TÓRIO (Funcionamento padrão)
+  {
+    input: {
+      items: [thorium/1]
+      liquids: [cryofluid/0.1]
+    }
+    outputPower: 15.0
+    craftTime: 60
+  }
+
+  // COMBUSTÍVEL 2: URÂNIO ENRIQUECIDO (Gera o dobro de energia e o Urânio Empobrecido)
+  {
+    input: {
+      items: [uranio/1]
+      liquids: [cryofluid/0.2]
+    }
+    outputItems: [uranio-empobrecido/1]
+    outputPower: 31.5
+    craftTime: 60
+  }
+]
+
+requirements: [
+  lead/400
+  thorium/250
+  silicon/200
+  titanium/150
+]
+research: nuclear-reactor
