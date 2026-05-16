@@ -3,7 +3,8 @@ name: Decantador Químico Nuclear
 description: "Separa os isótopos do Urânio Empobrecido, isolando o Plutônio sólido e condensando o Trítio em estado líquido."
 size: 2
 health: 500
-category: craft
+category: production
+
 craftTime: 60
 hasPower: true
 hasItems: true
