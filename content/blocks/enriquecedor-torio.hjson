@@ -1,4 +1,4 @@
-⁷type: GenericCrafter
+type: GenericCrafter
 name: Enriquecedor de Tório
 description: "Processa tório bruto para gerar isótopos puros de Urânio Enriquecido."
 size: 2
