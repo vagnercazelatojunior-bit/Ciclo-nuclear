@@ -1,0 +1,6 @@
+name: "ciclo-nuclear"
+displayName: "Projeto Ciclo Nuclear"
+author: "Vagner"
+description: "Mod focado em refino nuclear avançado, gerando 1890 de energia e produzindo Plutônio e Trítio Super-Refrigerante."
+version: "1.0"
+minGameVersion: "146"
