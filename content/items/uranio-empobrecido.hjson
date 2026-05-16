@@ -1,0 +1,8 @@
+type: item
+name: Urânio Empobrecido
+description: "Subproduto denso e pesado obtido após a fissão no reator."
+cost: 2
+color: "4d664d"
+radioactivity: 0.3
+explosiveness: 0.0
+research: uranio
