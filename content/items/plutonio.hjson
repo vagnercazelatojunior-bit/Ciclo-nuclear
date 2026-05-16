@@ -1,0 +1,9 @@
+type: item
+name: Plutônio
+description: "Material radioativo superpesado gerado como subproduto. Usado como ogiva de mísseis balísticos pesados."
+cost: 3
+color: "42ff42"
+flammability: 0.2
+radioactivity: 2.5
+explosiveness: 0.5
+research: uranio
