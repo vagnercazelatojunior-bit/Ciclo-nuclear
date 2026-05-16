@@ -1,0 +1,8 @@
+type: item
+name: Urânio Enriquecido
+description: "Urânio refinado com alto poder de fissão."
+cost: 3
+color: "39ff14"
+radioactivity: 2.5
+explosiveness: 0.6
+research: thorium
