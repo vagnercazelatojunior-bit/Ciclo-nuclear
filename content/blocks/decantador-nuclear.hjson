@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Decantador Químico Nuclear
+description: "Separa os isótopos do Urânio Empobrecido, isolando o Plutônio sólido e condensando o Trítio em estado líquido."
+size: 2
+health: 500
+category: craft
+craftTime: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+consumes: {
+  power: 2.0
+  items: [
+    uranio-empobrecido/1
+  ]
+}
+
+outputItem: plutonio/1
+outputLiquid: tritio/0.3
+
+requirements: [
+  lead/150
+  silicon/100
+  thorium/50
+]
+research: nuclear-reactor
