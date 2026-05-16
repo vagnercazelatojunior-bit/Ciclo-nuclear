@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Enriquecedor de Tório
+description: "Processa tório bruto para gerar isótopos puros de Urânio Enriquecido."
+size: 2
+health: 600
+category: craft
+craftTime: 90
+hasPower: true
+hasItems: true
+
+consumes: {
+  power: 3.5
+  items: [
+    thorium/2
+  ]
+}
+
+outputItems: [
+  uranio/2
+]
+
+requirements: [
+  lead/150
+  silicon/100
+  thorium/80
+]
+research: thorium
