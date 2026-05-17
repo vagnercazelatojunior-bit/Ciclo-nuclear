@@ -24,4 +24,4 @@ requirements: [
   silicon/100
   thorium/50
 ]
-research: nuclear-reactor
+research: thorium
